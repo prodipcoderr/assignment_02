@@ -19,17 +19,28 @@
     Shared CSS
     ========================= */
 .primary-btn {
-  padding: 26px 87px;
+  padding: 14px 25px;
   background-color: #ff5400;
   color: #ffffff;
   outline: none;
   border: none;
+  border-radius: 6px;
   cursor: pointer;
 }
+
+.btn-section a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+}
+.btn-section i {
+  margin-right: 10px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0px auto;
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 .tomato-color {
@@ -74,4 +85,61 @@ header {
 .nav-section ul li a:hover {
   font-weight: 700;
   color: #ff5400;
+}
+
+/*  ========================= 
+    Explore Travel Section
+    ========================= */
+
+.explore-travel-section {
+  background-image: url(../img/banner-bg.png);
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../img/banner-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 14px;
+  color: #fff;
+  padding: 134px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.explore-travel-section h2 {
+  font-size: 64px;
+  font-weight: 800;
+}
+.explore-travel-section p {
+  text-align: center;
+  margin: 25px 0px;
+  font-size: 1rem;
+  line-height: 26px;
+}
+
+.form-section {
+  padding: 15px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section input[type="text"],
+select {
+  background-color: white;
+  padding: 16px 10px;
+  width: 200px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  color: rgba(19, 19, 24, 0.5);
 }

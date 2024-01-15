@@ -1,8 +1,46 @@
 @media only screen and (max-width: 600px) {
+  .container {
+    padding: 20px 20px;
+  }
   .high-nav {
     display: none;
   }
   .on-hide {
     display: block;
+  }
+
+  .explore-travel-section {
+    margin: 20px 20px;
+    padding: 35px 20px;
+  }
+  .explore-travel-section h2 {
+    font-size: 22px;
+  }
+  .explore-travel-section p {
+    font-size: 14px;
+  }
+
+  .main-form-section {
+    width: 100%;
+  }
+
+  .form-section {
+    display: block;
+    width: 100%;
+  }
+
+  .form-section input[type="text"],
+  select {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .form-text,
+  .when-section,
+  .type-section,
+  .btn-section {
+    width: 100%;
+  }
+  .primary-btn {
+    text-align: center;
   }
 }
