@@ -183,18 +183,24 @@ select {
     Destination section
     ========================= */
 
-.destination-section {
+.destination-section,
+.choose-us-section {
   margin-top: 10px;
 }
-.destination-title-text {
+.destination-title-text,
+.choose-us-title-text {
   text-align: center;
   margin-bottom: 50px;
 }
-.destination-title-text h2 {
+.destination-title-text h2,
+.choose-us-title-text h2 {
   font-weight: 800;
   font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 12px;
 }
-.destination-title-text p {
+.destination-title-text p,
+.choose-us-title-text p {
   line-height: 26px;
   margin-top: 10px;
 }
@@ -272,4 +278,70 @@ select {
   color: white;
   width: 100%;
   height: 300px;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/*  ========================= 
+    Choose-us section
+    ========================= */
+
+.choose-us-card {
+}
+.top-card {
+  display: flex;
+  gap: 20px;
+}
+
+.Card-01 h3,
+.Card-02 h3,
+.Card-03 h3 {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 12px 0px;
+}
+
+.Card-01 p,
+.Card-02 p,
+.Card-03 p {
+  line-height: 26px;
+}
+
+.Card-01 {
+  width: 100%;
+  height: 284px;
+  grid-area: card1;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 50px;
+  overflow: hidden;
+}
+.Card-02 {
+  width: 100%;
+  height: 284px;
+  grid-area: card2;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 50px;
+  overflow: hidden;
+}
+.Card-03 {
+  width: 100%;
+  height: 284px;
+  grid-area: card3;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 50px;
+  overflow: hidden;
+}
+
+.choose-us-card {
+  display: grid;
+  grid-template-areas:
+    "card1 card1 card2 card2"
+    ". card3 card3 .";
+  gap: 20px;
 }

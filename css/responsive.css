@@ -67,4 +67,10 @@
       "bd"
       "band";
   }
+  .choose-us-card {
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3";
+  }
 }
