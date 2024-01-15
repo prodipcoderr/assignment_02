@@ -171,6 +171,105 @@ select {
   margin: 16px 0px;
 }
 
-.tour-list{
+.tour-list {
   padding-left: 25px;
+}
+
+.btn-new {
+  margin-top: 40px;
+}
+
+/*  ========================= 
+    Destination section
+    ========================= */
+
+.destination-section {
+  margin-top: 10px;
+}
+.destination-title-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.destination-title-text h2 {
+  font-weight: 800;
+  font-size: 40px;
+}
+.destination-title-text p {
+  line-height: 26px;
+  margin-top: 10px;
+}
+
+.maldives {
+  grid-area: mal;
+  background-image: url(../img/01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.indo {
+  grid-area: indo;
+  background-image: url(../img/02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.srilanka {
+  grid-area: sri;
+  background-image: url(../img/03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.north {
+  grid-area: north;
+  background-image: url(../img/04.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.kashmir {
+  grid-area: kash;
+  background-image: url(../img/05.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.bd {
+  grid-area: bd;
+  background-image: url(../img/06.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.Band {
+  grid-area: band;
+  background-image: url(../img/07.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.destination-image-card {
+  display: grid;
+  grid-template-areas:
+    "mal mal mal mal indo indo indo indo"
+    "sri sri north north north north kash kash "
+    "bd bd bd band band band band band ";
+  gap: 20px;
+}
+
+.destination-image-card > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 300px;
 }
