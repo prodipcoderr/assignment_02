@@ -1,0 +1,52 @@
+/*  ========================= 
+    Google fonts
+    ========================= */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap");
+
+/*  ========================= 
+    Universal Selector
+    ========================= */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+/*  ========================= 
+    Shared CSS
+    ========================= */
+.primary-btn {
+  padding: 26px 87px;
+  background-color: #ff5400;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 20px;
+}
+/*  ========================= 
+    Header / Logo / Nav CSS
+    ========================= */
+
+header {
+}
+
+.logo {
+}
+.logo h1 {
+}
+.nav-section {
+}
+.nav-section ul {
+}
+.nav-section ul li {
+}
+.nav-section ul li a {
+}
