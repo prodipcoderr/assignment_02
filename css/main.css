@@ -18,6 +18,7 @@
 /*  ========================= 
     Shared CSS
     ========================= */
+
 .primary-btn {
   padding: 14px 25px;
   background-color: #ff5400;
@@ -142,4 +143,34 @@ select {
   border: none;
   border-radius: 7px;
   color: rgba(19, 19, 24, 0.5);
+}
+
+/*  ========================= 
+    Popular Tours
+    ========================= */
+
+.popular-tours-section {
+  margin: 0px auto;
+  padding: 100px 0px;
+  display: flex;
+  gap: 50px;
+}
+.popular-tours-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.popular-tours-desc h2 {
+  font-size: 40px;
+}
+.popular-tours-desc p {
+  margin: 14px 0px;
+  line-height: 26px;
+}
+.popular-tours-desc ul {
+  margin: 16px 0px;
+}
+
+.tour-list{
+  padding-left: 25px;
 }
