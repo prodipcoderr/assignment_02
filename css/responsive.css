@@ -99,4 +99,10 @@
       "news-form"
       "news-img";
   }
+  .footer-section {
+    padding: 20px;
+  }
+  .main-footer {
+    padding: 20px;
+  }
 }

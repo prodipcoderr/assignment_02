@@ -151,7 +151,8 @@ select {
     ========================= */
 
 .popular-tours-section,
-.perfect-place-section {
+.perfect-place-section,
+.footer-section {
   margin: 0px auto;
   padding: 100px 0px;
   display: flex;
@@ -463,6 +464,7 @@ iframe {
   grid-template-areas: "news-form news-form news-form news-img";
   gap: 20px;
   align-items: center;
+  margin-bottom: 60px;
 }
 .newslaletter-img img {
   width: 100%;
@@ -506,4 +508,41 @@ iframe {
   right: 9px;
   bottom: 43px;
   transform: rotate(343deg);
+}
+
+/* .footer-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+.main-footer ul {
+  display: flex;
+}
+
+.main-footer ul li {
+  list-style: none;
+  margin-right: 24px;
+  font-size: 25px;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+  padding: 70px;
+}
+.main-footer p {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+section.footer-section {
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.last-text {
+  margin-top: 60px;
+  text-align: center;
 }
