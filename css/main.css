@@ -27,6 +27,7 @@
   border: none;
   border-radius: 6px;
   cursor: pointer;
+  font-weight: 800;
 }
 
 .btn-section a {
@@ -149,29 +150,36 @@ select {
     Popular Tours
     ========================= */
 
-.popular-tours-section {
+.popular-tours-section,
+.perfect-place-section {
   margin: 0px auto;
   padding: 100px 0px;
   display: flex;
   gap: 50px;
 }
-.popular-tours-desc {
+.popular-tours-desc,
+.perfect-place-desc {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.popular-tours-desc h2 {
+.popular-tours-desc h2,
+.perfect-place-desc h2 {
+  font-weight: 800;
   font-size: 40px;
 }
-.popular-tours-desc p {
+.popular-tours-desc p,
+.perfect-place-desc p {
   margin: 14px 0px;
   line-height: 26px;
 }
-.popular-tours-desc ul {
+.popular-tours-desc ul,
+.perfect-place-desc ul {
   margin: 16px 0px;
 }
 
-.tour-list {
+.tour-list,
+.perfect-place-list {
   padding-left: 25px;
 }
 
@@ -184,23 +192,27 @@ select {
     ========================= */
 
 .destination-section,
-.choose-us-section {
+.choose-us-section,
+.deals-discounts-title-text {
   margin-top: 10px;
 }
 .destination-title-text,
-.choose-us-title-text {
+.choose-us-title-text,
+.deals-discounts-title-text {
   text-align: center;
   margin-bottom: 50px;
 }
 .destination-title-text h2,
-.choose-us-title-text h2 {
+.choose-us-title-text h2,
+.deals-discounts-title-text h2 {
   font-weight: 800;
   font-size: 40px;
   margin-top: 40px;
   margin-bottom: 12px;
 }
 .destination-title-text p,
-.choose-us-title-text p {
+.choose-us-title-text p,
+.deals-discounts-title-text p {
   line-height: 26px;
   margin-top: 10px;
 }
@@ -285,9 +297,6 @@ select {
 /*  ========================= 
     Choose-us section
     ========================= */
-
-.choose-us-card {
-}
 .top-card {
   display: flex;
   gap: 20px;
@@ -344,4 +353,91 @@ select {
     "card1 card1 card2 card2"
     ". card3 card3 .";
   gap: 20px;
+}
+
+/*  ========================= 
+    Deals-Discounts section
+    ========================= */
+
+.discounts-card-item {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 38px;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.deals-discounts-cards1 {
+  width: 100%;
+  padding: 56px;
+  background-image: url(../img/Group39.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+.discounts-card-item h3 {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 24px 0px;
+}
+.discounts-card-item p {
+  margin-top: 10px;
+  line-height: 26px;
+}
+.discounts-card-item h4 {
+  color: #ff5400;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.icon-item {
+  display: flex;
+  gap: 20px;
+}
+.list-icon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.list-icon p {
+  margin-top: 0px;
+}
+
+.dis-card-2 {
+  justify-content: flex-start;
+}
+
+.aline {
+  text-align: center;
+}
+
+/*  ========================= 
+    Perfect-place section
+    ========================= */
+
+.perfect-place-desc {
+  width: 50%;
+}
+.perfect-place-video {
+  width: 50%;
+  height: 424px;
+  display: flex;
+  align-items: center;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.perfect-place-list ul li {
+  font-weight: bold;
 }

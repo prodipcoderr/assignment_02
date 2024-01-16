@@ -73,4 +73,24 @@
       "card2"
       "card3";
   }
+
+  .discounts-card-item {
+    width: 100%;
+    margin-top: 100px;
+  }
+  /* .icon {
+  } */
+
+  .aline {
+    display: none;
+  }
+
+  .perfect-place-section {
+    flex-direction: column;
+  }
+  .perfect-place-desc,
+  .perfect-place-video,
+  iframe {
+    width: 100%;
+  }
 }
