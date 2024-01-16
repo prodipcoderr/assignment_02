@@ -93,4 +93,10 @@
   iframe {
     width: 100%;
   }
+
+  .main-newsletter-section {
+    grid-template-areas:
+      "news-form"
+      "news-img";
+  }
 }
